@@ -1,4 +1,4 @@
-package main
+package bigfix
 
 import (
 	"fmt"
@@ -13,3 +13,4 @@ func main() {
 	fmt.Println("Demo of bigfix module")
 	fmt.Println(bigfix.Stub())
 }
+
