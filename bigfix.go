@@ -1,4 +1,4 @@
-package "github.com/tubalcaine/bigfix-core-api"
+package bigfix_core_api
 
 import (
 	"crypto/tls"
@@ -126,4 +126,3 @@ func MakeSrQuery(qstr string) (*BFSrQuery, error) {
 func Stub() string {
 	return "Stub!"
 }
-
